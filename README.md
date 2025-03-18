@@ -11,7 +11,7 @@ Welcome to my GitHub! I'm a **Language Engineer** with a strong background in **
 - Rule-based & Transformer-based NLP models (e.g., IndoBERT, Stanza)  
 
 ## 📄 Resume  
-Check out my **[Resume](#)** or **[Portfolio](#)** for a detailed look at my experience and projects.  
+Check out my **Resume** or **Portfolio** for a detailed look at my experience and projects.  
 
 ## 📫 Let's Connect!  
 - 🌐 **Website/Portfolio:** https://github.com/istikomah17/portfolio 
