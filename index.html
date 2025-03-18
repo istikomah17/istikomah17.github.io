@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isti's Resume</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            border: 3px solid #333;
+        }
+        .profile-photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+        /* Word Cloud Animation */
+        .word-cloud {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #000; /* Black font color */
+            background-color: #f4a460; /* Cream background */
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+            animation: float 3s ease-in-out infinite;
+        }
+        .word-cloud i {
+            margin-right: 10px;
+            color: #000; /* Black icon color */
+        }
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Circular Photo Placeholder -->
+            <div class="profile-photo">
+                <img src="profile.jpg" alt="ISTIKOMAH">
+            </div>
+
+            <!-- Word Cloud with Animation -->
+            <div class="word-cloud">
+				<img src="waving-hand.svg" alt="Waving Hand" class="icon"> <!-- Custom SVG icon -->
+				Hi, I'm Isti!
+			</div>
+
+            <h1>ISTIKOMAH</h1>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:istikomah17@gmail.com">istikomah17@gmail.com</a></p>
+                <p>
+                    <img src="linkedin-icon.svg" alt="LinkedIn" class="icon">
+                    LinkedIn: <a href="https://www.linkedin.com/in/istilinguist/" target="_blank">linkedin.com/in/istilinguist</a>
+                </p>
+                <p>
+                    <img src="credly-icon.svg" alt="Credly" class="icon">
+                    Credly: <a href="https://www.credly.com/users/istikomah" target="_blank">credly.com/users/istikomah</a>
+                </p>
+                <p>GitHub: <a href="https://github.com/istikomah17" target="_blank">github.com/istikomah17</a></p>
+                <p>Portfolio: <a href="https://istikomah17.github.io" target="_blank">istikomah17.github.io</a></p>
+            </div>
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <p>
+                I am a language engineer with a strong linguistic background, specializing in Natural Language Understanding (NLU) for the Indonesian language. My expertise spans computational linguistics and AI-driven language processing. With experience developing a cutting-edge NLU system based on a transformer model, I also conduct linguistic analysis on applications such as a multidimensional analysis tagger for Bahasa Indonesia and localization to enhance NLP systems. Passionate about bridging language and technology, I work to advance Indonesian language technology, enabling more effective communication and providing deeper insights into diverse applications and social issues through linguistic analysis.
+            </p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Programming Languages:</strong> Python, JavaScript</li>
+                <li><strong>Web Development:</strong> HTML, CSS, Flask</li>
+                <li><strong>Tools & Technologies:</strong> Git, Jira, Matecat, Regular Expressions (Regex)</li>
+                <li><strong>Languages:</strong> Indonesian, English</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <h3>Natural language Understanding (NLU) Developer</h3>
+            <p><strong>Cerence AI</strong> | Remote | July 2023 - August 2024</p>
+            <ul>
+                <li>Developed and maintained a cutting-edge NLU system based on a transformer model for the Indonesian language.</li>
+            </ul>
+
+            <h3>Tutor</h3>
+            <p><strong>English Department - Universitas Terbuka</strong> | Remote | April 2021 - July 2023</p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+
+            <!-- Bachelor's Degree -->
+            <h3>Bachelor degree in English Linguistics</h3>
+            <p><strong>Universitas Padjadjaran (UNPAD)</strong> | Bandung, Indonesia | 2010-2014</p>
+            <ul>
+                <li>Relevant Coursework: English, Pragmatics, Discourse, Syntax, Semantics, Semiotics, Corpus Linguistics</li>
+                <li>Bachelor's Thesis: Tanda dan Tagline Pada Poster Film yang Mendeskripsikan Gejala Psikosis (<i>Signs and Taglines on Movie Posters Describing Psychosis Symptoms</i>)</li>
+            </ul>
+
+            <!-- Master's Degree -->
+            <h3>Master's degree in Linguistics</h3>
+            <p><strong>Universitas Pendidikan Indonesia (UPI)</strong> | Bandung, Indonesia | 2016-2018</p>
+            <ul>
+                <li>Linguistics</li>
+				<li>Awards: LPDP Scholarship</li>
+				<li>Relevant Coursework: Pragmatics, Discourse, Semantics, Semiotics, Corpus Linguistics, Computational Linguistics</li>
+                <li>Research Focus: Semiotics | Corpus Linguistics</li>
+                <li>Master's Thesis: Sentimen Publik Dalam Pemberitaan Bitcoin (<i>Public Sentiment in Bitcoin News Reporting</i>)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <h3>Multidimensional Analysis Tagger for Bahasa Indonesia</h3>
+            <p><strong>GitHub:</strong> <a href="https://github.com/istikomah17/id-mda-tagger" target="_blank">github.com/istikomah17/id-mda-tagger</a></p>
+            <ul>
+                <li>Adapting the Multidimensional Analysis Tagger from Andreas Nini’s Multidimensional Analysis for Bahasa Indonesia.</li>
+				<li>Combining rule-based POS tagging with Stanza and IndoBERT for Bahasa Indonesia to enhance speed and accuracy.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>AI Developer Professional Certificate</strong> - IBM Coursera</li>
+                <li><strong>Applied Software Engineering Fundamentals</strong> - IBM Coursera</li>
+                <li><strong>Generative AI Engineering with Transformers & LLMs</strong> - IBM Coursera</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
