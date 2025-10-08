@@ -4,8 +4,8 @@ Welcome to my GitHub! I'm a **Language Engineer** with a strong background in **
 
 ## 🛠 Expertise  
 - Bahasa Indonesia
-- Natural Language Understanding (NLU) & Processing (NLP)  
-- Computational Linguistics & Linguistic Analysis  
+- Natural Language Understanding (NLU)  
+- Linguistic QA  
 - Multidimensional Analysis Tagging & Sentiment Analysis  
 - AI-Powered Translation & Localization  
 - Rule-based & Transformer-based NLP models (e.g., IndoBERT, Stanza)  
